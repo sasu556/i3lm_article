@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إعلم – منصة المعرفة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== MASTHEAD ===== -->
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="logo" href="index.html">إع<span>ل</span>م</a>
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="7"/>
+          <line x1="16.5" y1="16.5" x2="22" y2="22"/>
+        </svg>
+        <input class="search-input" id="searchInput" type="text" placeholder="ابحث في المقالات...">
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== CATEGORY NAV ===== -->
+  <nav class="cat-nav">
+    <div class="cat-nav-inner">
+      <button class="cat-btn active" data-cat="all">الكل</button>
+      <button class="cat-btn" data-cat="travel">السياحة</button>
+      <button class="cat-btn" data-cat="nature">الطبيعة</button>
+      <button class="cat-btn" data-cat="tech">معلوماتية</button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO STRIP ===== -->
+  <section class="hero-strip">
+    <div class="hero-inner">
+      <p class="hero-label">منصة المعرفة العربية</p>
+      <h1 class="hero-title">اكتشف عالماً من المعرفة بأسلوب بسيط وعميق</h1>
+      <p class="hero-excerpt">مقالات محكمة في الطبيعة والتقنية، تُقدَّم بلغة عربية راقية لكل من يسعى إلى الفهم.</p>
+    </div>
+  </section>
+
+  <!-- ===== MAIN ===== -->
+  <main class="page-wrapper">
+    <div class="section-header">
+      <h2 class="section-title" id="sectionTitle">جميع المقالات</h2>
+      <div class="section-rule"></div>
+      <span class="article-count" id="articleCount"></span>
+    </div>
+    <div class="articles-grid" id="articlesGrid"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 <span>إعلم</span> — منصة المعرفة العربية</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
